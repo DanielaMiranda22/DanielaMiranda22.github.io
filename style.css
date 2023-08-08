@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #f6f9f6;
+}
+
+/* ======= Barra de navegación =======*/
+#brand img {
+    border-radius: 50% !important;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/* ======= carrusel de imágenes =======*/
+.carousel-inner{
+    max-height: 35rem;
+}
+
+/* ======= información =======*/
+
+.main{
+    justify-content: space-around
+}
+.container{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.info{
+    padding: 10px;
+    justify-content: center;
+}
+
+.info img{
+    border-radius: 50%;
+    width: 178px;
+    height: 100px;
+}
+
+.info h5{
+    margin-top: 20px;
+}
+.info p {
+    font-size: 15px;
+    text-align: justify !important;
+}
+
+.btn-info{
+    border-color: rgb(8, 65, 8);
+    background-color: white;
+    font-size: 10px;
+    color: rgb(8, 65, 8);
+    border-radius: 35px;
+    width: 50px;
+    height: 25px;
+}
+
+.div-info{
+    margin-top: 15px;
+}
+
+.content{
+    height: 150px;
+    display: none;
+}
+
+/* ====== Collage de imágenes ======== */
+.galery{
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between;
+}
+.galery div{
+    width: 178px;
+    height: 100px;
+}
+.galery img{
+    width: auto;
+    height: 100px;
+}
+
+.galery img:hover {
+    border: 5px solid #f9f6f6e7;
+}
+
+/* ====== Media queries SM ======== */
+
+@media(max-width:768px){
+    #intro, #galery, #conocenos{
+        width: 90% !important;
+    }
+}
+
+@media(max-width:420px){
+    .galery{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-between;
+    }
+}
+
+
+/* ======= Footer ======= */
+
+#footer-section{
+   min-height: 30px;
+   position:relative;
+}
+
+footer {
+    margin-top: 2px;
+    background-color: rgb(181, 14, 14) ;
+    min-height: 50px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#icons i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: white;
+}
+
