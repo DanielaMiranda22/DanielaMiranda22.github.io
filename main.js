@@ -6,6 +6,6 @@ function muestra_oculta(id){
         div.style.display = "none";
     }
     else {
-        div.style.display ="none";
+        div.style.display ="flex";
     }
 }
